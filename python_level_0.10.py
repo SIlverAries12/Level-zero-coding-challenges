@@ -1,6 +1,3 @@
-'''firstword = str(input("Input first word: "))
-Secondword = str(input("Input second word: "))'''
-
 def CommonWords(a, b):
     InCommon = ""
     for i in a.lower():
@@ -12,6 +9,6 @@ def CommonWords(a, b):
                     InCommon += str(i + ", ")
             
             
-    return print(f"Common letters: {InCommon}")
+    print(f"Common letters: {InCommon}")
 
 CommonWords("umbrella","bradley")

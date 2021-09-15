@@ -1,12 +1,10 @@
-
-
 def max_num(*args):
 
-    biggestNum = args[0] # assuming the first value is the biggest
+    biggestNum = args[0] 
     for i in args:
-        if i > biggestNum:  # compare subsequent number with previous number and updates if number is bigger
+        if i > biggestNum:  
             biggestNum = i
-    return print(biggestNum)
+    print(biggestNum)
 
 
 max_num(7,19,57,63,2)  
