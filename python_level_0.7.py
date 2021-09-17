@@ -1,11 +1,11 @@
-def CeltoFeh(a):
+def cel_to_feh(a):
     fahrenheit = round((a * (9/5)) + 32, 2)
     print(fahrenheit)
 
-CeltoFeh(21)
+cel_to_feh(21)
 
-def FehtoCel(b):
+def feh_to_cel(b):
     celsius = round((b - 32) * (5/9), 2)
     print(celsius)
 
-FehtoCel(68)
+feh_to_cel(68)

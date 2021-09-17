@@ -1,14 +1,14 @@
-def CommonWords(a, b):
-    InCommon = ""
+def common_words(a, b):
+    in_common = ""
     for i in a.lower():
         for x in b.lower():
             if i == x:
-                if i in InCommon:
+                if i in in_common:
                     continue
                 else:
-                    InCommon += str(i + ", ")
+                    in_common += str(i + ", ")
             
-            
-    print(f"Common letters: {InCommon}")
+    in_common = in_common[0: -2]        
+    print(f"Common letters: {in_common}")
 
-CommonWords("umbrella","bradley")
+common_words("umbrella","bradley")

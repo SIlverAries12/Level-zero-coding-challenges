@@ -1,6 +1,6 @@
-def hoursandmin(a):
+def hours_and_min(a):
     hours = a // 60
     minutes = a % 60
     print(f" {hours} hours and {minutes} minutes")
 
-hoursandmin(1440)
+hours_and_min(1440)

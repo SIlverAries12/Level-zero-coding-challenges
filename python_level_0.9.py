@@ -1,4 +1,4 @@
-def AreVowels(b):
+def are_vowels(b):
     empty_string = ""
     vowels = ["a","e", "i", "o", "u"]
     for i in b.lower():                             
@@ -10,4 +10,4 @@ def AreVowels(b):
     empty_string = empty_string[0:-2]            
     print(f"Vowels: {empty_string}")
 
-AreVowels("Amazing guy")
+are_vowels("Amazing guy")
