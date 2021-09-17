@@ -1,5 +1,8 @@
-def area (base,height):
-   output = 1/2 * (base * height)
+import math
+
+def area (a,b,c):
+   s = 0.5*(a + b + c)
+   output = math.sqrt(s*((s-a)*(s-b)*(s-c)))
    print(str(output))
 
-area(14, 7) 
+area(3, 4, 5) 
